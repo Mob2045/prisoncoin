@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>$prison</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="prison-logo.png">
+<style>
+/* GENERAL STYLES */
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', 'Inter', sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+/* LOGO */
+.logo {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+    animation: spin 12s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+/* HEADINGS */
+h1 {
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+/* PARAGRAPHS */
+p {
+    font-size: 28px;
+    line-height: 2.5;
+    margin-bottom: 50px;
+    max-width: 800px;
+}
+
+/* TOKEN TEXT */
+.token {
+    font-size: 32px;
+    font-weight: bold;
+    word-break: break-all;
+    margin-bottom: 40px;
+}
+
+/* SECTION BACKGROUND */
+.section-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUY BUTTON - GREEN */
+.button-buy {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #00C853, #66FF66);
+    color: white !important;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 25px 60px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0,200,83,0.5), 0 10px 50px rgba(102,255,102,0.3);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.button-buy:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 35px rgba(0,200,83,0.7), 0 15px 60px rgba(102,255,102,0.5);
+    filter: brightness(1.2);
+}
+
+/* JOIN X BUTTON - BLUE */
+.button-x {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: linear-gradient(135deg, #1DA1F2, #0d8ddb);
+    color: white !important;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 25px 60px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(29,161,242,0.5), 0 10px 60px rgba(13,141,219,0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.button-x:hover {
+    transform: scale(1.15) rotateZ(2deg);
+    box-shadow: 0 15px 35px rgba(29,161,242,0.7), 0 15px 70px rgba(13,141,219,0.5);
+    filter: brightness(1.2);
+}
+
+/* Twitter Icon */
+.twitter-icon {
+    width: 40px;
+    height: 40px;
+}
+</style>
+</head>
+<body>
+
+<!-- Section 1: Logo + Title -->
+<section class="section-bg">
+    <img src="prison-logo.png" alt="Prison Logo" class="logo">
+    <h1>prison</h1>
+    <p>This is… <strong>forever profitable</strong></p>
+</section>
+
+<!-- Section 2: Prisons Make Billions -->
+<section class="section-bg">
+    <h2>🚨 PRISONS MAKE BILLIONS EVERY YEAR</h2>
+    <p>💰 Private prison industry 10B+ revenue</p>
+    <p>All from incarceration and government contracts</p>
+    <p>BARS + FINES + STATE FUNDING = BILLIONS</p>
+</section>
+
+<!-- Section 3: Why Infinitely Profitable -->
+<section class="section-bg">
+    <h2>WHY IT’S INFINITELY PROFITABLE</h2>
+    <p>The stats do not lie</p>
+    <p>Criminal rates remain stubbornly high<br>Poverty cycles never truly end<br>Demand for prisons keeps growing</p>
+    <p>Millions affected by systemic issues every year<br>Incarceration + fines + labor + state contracts = infinite profitability</p>
+    <p>This is the ultimate stablecoin of human misfortune</p>
+</section>
+
+<!-- Section 4: Token Economics -->
+<section class="section-bg">
+    <h2>PRISON TOKEN ECONOMICS</h2>
+    <p>1️⃣ 1 token = 1 prison</p>
+    <p>💵 Own a piece of the empire</p>
+    <p>📈 Estimated yield 1000%+ APY</p>
+    <p>Based on prison industry profits</p>
+    <p>Revenue streams: Inmate labor, State funding, Fines, Real estate and Property management</p>
+    <p>The most profitable business model ever 🔗</p>
+</section>
+
+<!-- Section 5: CA + Buy Button + Join X -->
+<section class="section-bg">
+    <p class="token">CA: INSERT_PRISON_TOKEN_HERE</p>
+
+    <button class="button-buy" onclick="window.open('https://your-buy-link.com', '_blank')">
+        BUY PRISON COIN
+    </button>
+
+    <button class="button-x" onclick="window.open('https://twitter.com/YourXProfile', '_blank')">
+        <img src="" alt="" class="">
+        JOIN THE X COMMUNITY
+    </button>
+</section>
+
+</body>
+</html>
